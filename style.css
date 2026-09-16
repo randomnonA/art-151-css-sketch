@@ -1,5 +1,18 @@
 header {
   color: #FFFFFF;
+  font-family: monospace;
   font-size: 90px;
   background-color: #1179AD;
+  border: 8px solid black;
+  text-align: center;
+}
+
+body {
+  background-color: grey;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
