@@ -25,3 +25,28 @@ pre {
   color: white;
 }
 
+img {
+  text-align: center;
+}
+
+.square {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-style: dashed;
+  border-color: #1179AD;
+  animation: side-to-side 5s infinite ease-in-out;
+}
+
+@keyframes side-to-side{
+  0%{
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
