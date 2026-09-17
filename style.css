@@ -39,6 +39,47 @@ img {
   animation: side-to-side 5s infinite ease-in-out;
 }
 
+.red {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: red;
+  text-align: right;
+  padding: 10px;
+  margin: 50px;
+  top: 500px;
+  left: 20px;
+  z-index: -1;
+  border-color: pink;
+  border-style: solid;
+}
+
+.blue {
+  position: absolute;
+  width: 250px;
+  height: 20px;
+  background: aqua;
+  padding: 100px;
+  margin: 20px;
+  bottom: -200px;
+  left: 250px;
+  z-index: 1;
+}
+
+.green {
+  position: sticky;
+  width: 50px;
+  height: 300px;
+  background: #87CC93;
+  padding: 20px;
+  margin: 250px;
+  top: 0px;
+  left: 20px;
+  z-index: 2;
+}
+
+
+
 @keyframes side-to-side{
   0%{
     transform: translateX(0);
