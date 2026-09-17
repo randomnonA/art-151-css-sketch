@@ -18,3 +18,10 @@ p {
   font-size: 30px;
   color: white;
 }
+
+pre {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
